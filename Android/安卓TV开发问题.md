@@ -26,4 +26,10 @@
   setHasFixedSize(false)
   ```
 
+- notifyItemMoved不生效问题
+
+  ```kotlin
+  // adapter不要重写 getItemId()方法就行了
+  ```
+
   
